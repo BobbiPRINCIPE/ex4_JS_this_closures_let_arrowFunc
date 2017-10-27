@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS Closures</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./script_closures.js"></script>
+</head>
+
+<body>
+    <h1>Without closures</h1>
+    <div id="noClosure_1">
+        <h2>Without closures 1</h2>
+        <button type="button" onclick="func4onClick_noClosures_1()">btn_1, click to increment below count</button>
+        <p id="pNoClosure_1">0</p>
+    </div>
+
+    <div id="noClosure_2">
+        <h2>Without closures 2</h2>
+        <button type="button" onclick="func4onClick_noClosures_2()">btn_2, click to increment below count</button>
+        <p id="pNoClosure_2">0</p>
+    </div>
+
+    <div id="closure_1">
+        <h2>Closures 1 - Hello closures</h2>
+        <button type="button" onclick="func4onClick_closures_1()">btn_3, click to pop 2 alerts using closures</button>
+    </div>
+
+    <div id="closure_2">
+        <h2>Closures 2 - Counting with closures</h2>
+        <button type="button" onclick="func4onClick_closures_2(1)">btn_4a, click to increment below count by 1 using closures</button>
+        <button type="button" onclick="func4onClick_closures_2(10)">btn_4b, click to increment below count by 10 using closures</button>
+        <p id="pClosure_2">0</p>
+    </div>
+
+    <div id="closure_3">
+        <h2>Closures 3 - Incrementing, Decrementing with closures</h2>
+        <button type="button" onclick="func4onClick_closures_3_increment()">btn_5a, click to increment below count by 1 using closures</button>
+        <button type="button" onclick="func4onClick_closures_3_decrement()">btn_5b, click to decrement below count by 1 using closures</button>
+        <p id="pClosure_3">0</p>
+    </div>
+
+</body>
+
+</html>
