@@ -68,9 +68,15 @@ git rebase origin
 
 ## to keep clone of a fork and fork in sync with original repo in github after original changes
 if you had forked a repo, lets say this repo, then you can resync your local repo to original repo and then push that to your fork in github
-+ login to github as you (in this example ilker-public2) and find the original github project (of ilker-kiris), in this example "https://github.com/fdu-csci3444/ex4_JS_this_closures_let_arrowFunc.git"
++ login to github as you (in this example ilker-public2) and find the original github project (of ilker-kiris), in this example
+```
+"https://github.com/fdu-csci3444/ex4_JS_this_closures_let_arrowFunc.git"
+```
 + then fork it in github site by clicking "fork" button on top right corner
-+ copy the git url of your fork, in this example "https://github.com/fdu-csci3444-public/ex4_JS_this_closures_let_arrowFunc.git"
++ copy the git url of your fork, in this example 
+```
+"https://github.com/fdu-csci3444-public/ex4_JS_this_closures_let_arrowFunc.git"
+```
 + in gitbash cd to your project where you are going to clone your fork and then clone it 
 ```
 cd /c/fdu/csci3444/projects
