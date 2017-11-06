@@ -100,7 +100,7 @@ git fetch upstream
 ```
 git merge upstream/master
 ```
-+ 4th push your local repo to your github repo
++ 4th push your local repo to your github fork repo
 ```
 git push -u origin master
 ```
