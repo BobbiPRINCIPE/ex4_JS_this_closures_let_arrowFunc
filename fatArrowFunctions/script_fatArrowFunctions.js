@@ -58,7 +58,7 @@ setTimeout(function() {
     console.warn("timeout function executed");
 }, timeout);
 // using "fat" "arrow functions"
-setTimeout(() => console.trace("timeout FAF executed"), timeout * 2);
+setTimeout(() => { console.trace("timeout FAF executed") }, timeout * 2);
 
 // block_4
 // using a variable to hold "this" in the closure
@@ -71,6 +71,7 @@ function Bus1() {
     }, timeout * 3);
 }
 var myBus1 = new Bus1();
+var myBus1b = new Bus1();
 
 // using FAF then no need for a variable to hold this in closure
 function Bus2() {
